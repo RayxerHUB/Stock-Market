@@ -10,6 +10,31 @@ let watchlist = [];
 let currentChart = null; // To store Chart.js instance for dynamic updates
 const ALPHA_VANTAGE_API_KEY = 'X9VVFFCU4I97EBMG'; // Your API Key
 
+// 🔧 Tambahkan ini
+const newsData = [
+{
+title:"IHSG Menguat Hari Ini",
+description:"Pasar saham Indonesia menguat karena sentimen global.",
+category:"Market",
+date:"2024",
+image:"https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3"
+},
+{
+title:"Saham Perbankan Naik",
+description:"BBCA dan BMRI mencatat kenaikan hari ini.",
+category:"Stocks",
+date:"2024",
+image:"https://images.unsplash.com/photo-1559526324-4b87b5e36e44"
+},
+{
+title:"Investor Asing Masuk",
+description:"Aliran dana asing kembali masuk ke pasar saham.",
+category:"Economy",
+date:"2024",
+image:"https://images.unsplash.com/photo-1642543348745-77d9e5b2c1d1"
+}
+];
+
 // DOM Elements
 const contentArea = document.getElementById('content-area');
 const sidebar = document.getElementById('sidebar');
